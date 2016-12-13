@@ -88,7 +88,14 @@
 		<artifactId>spring-cloud-parent</artifactId>
 		<version>1.0.5-SNAPSHOT</version>
 	</parent>
-	
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-config-server</artifactId>
+		</dependency>
+	</dependencies>
+
 	<distributionManagement>
 		<repository>
 			<id>s3s3l-nexus</id>
