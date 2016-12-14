@@ -6,5 +6,6 @@ spring:
       server:
         git:
           #uri: https://github.com/spring-cloud-samples/config-repo
-          uri: /home/zwei/github/spring-cloud/config
+#          uri: /home/zwei/github/spring-cloud/config
+          uri: https://github.com/S3S3L/config.git
 #          basedir: target/config
